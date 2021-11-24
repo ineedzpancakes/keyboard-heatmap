@@ -1,10 +1,8 @@
-import pynput
-
 from pynput.keyboard import Key, Listener
 
 # Here's a keylogger if you would like to generate your own
 # text files to analyze for the heatmap. You may have to change permissions
-# on the file to be able to write to it. *There is malicious code in this file.*
+# on the file to be able to write to it.
 
 count = 0
 keys = []
